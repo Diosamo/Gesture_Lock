@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="请绘制解锁图案"
+                android:text="绘制图案"
                 android:paddingBottom="10dp"/>
             <com.fmrtgesturelock.IndicatorLockView
                 android:id="@+id/lockviewIndicator"
@@ -49,25 +49,16 @@
                     android:id="@+id/lockviewExpand"
                     android:layout_width="280dp"
                     android:layout_height="280dp"
-                    app:lock_selected1="@drawable/gusture_icon_left"
-                    app:lock_selected2="@drawable/gusture_icon_center"
-                    app:lock_selected3="@drawable/gusture_icon_right"
-                    app:lock_trackColor="#ff0408"
+                    app:lock_selected1="@drawable/left"
+                    app:lock_selected2="@drawable/center"
+                    app:lock_selected3="@drawable/right"
+                    app:lock_trackColor="#04ff9b"
                     app:lock_selected_error="@drawable/circle_error"
                     app:lock_unselected="@drawable/gusture_icon_default"
                     android:layout_gravity="center_horizontal"/>
 
             </RelativeLayout>
 
-            <TextView
-                android:layout_marginTop="60dp"
-                android:id="@+id/tvForgetGesturePWD"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#434242"
-                android:gravity="center_horizontal"
-                android:textSize="16sp"
-                android:text="忘记手势密码？"
-                android:visibility="visible" />
+
         </LinearLayout>
 </RelativeLayout>

@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements ExpandLockView.On
         mVibrator =(Vibrator)getApplication().getSystemService(Service.VIBRATOR_SERVICE); //震动
 
 //        mLockviewExpand.getPaintL().setStrokeWidth(20); //获取paint 修改连接线段的样式
-//        mLockviewExpand.setLock_trackColor(0xffff00ff); //给路径设置不同颜色
+        mLockviewExpand.setLock_trackColor(0xff04ff9b); //给路径设置不同颜色
         //加载动画资源文件
         mShakeAnimal = AnimationUtils.loadAnimation(this, R.anim.shake);
 

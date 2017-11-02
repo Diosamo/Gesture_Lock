@@ -387,7 +387,6 @@ public class ExpandLockView extends View {
                 for (Point point : pointTrace) {
                     point.setState(-1);
                 }
-                paintL.setColor(Color.RED);
                 refreshLockView(500);
                 onUpdateMessageListener.vibration("long");
                 step--;
@@ -416,7 +415,6 @@ public class ExpandLockView extends View {
                 for (Point point : pointTrace) {
                     point.setState(-1);
                 }
-                paintL.setColor(Color.RED);
                 refreshLockView(2000);
             }else{
                 if(null != onLockPanelListener) {
@@ -426,7 +424,6 @@ public class ExpandLockView extends View {
                 for (Point point : pointTrace) {
                     point.setState(-1);
                 }
-                paintL.setColor(Color.RED);
                 refreshLockView(1000);
                 onUpdateMessageListener.vibration("long");
                 try_time_restriction = 5;
@@ -453,7 +450,6 @@ public class ExpandLockView extends View {
                     for (Point point : pointTrace) {
                         point.setState(-1);
                     }
-                    paintL.setColor(Color.RED);
                     refreshLockView(1000);
                     onUpdateMessageListener.vibration("long");
                 }else if(try_time_restriction>1) {
@@ -461,7 +457,6 @@ public class ExpandLockView extends View {
                     for (Point point : pointTrace) {
                         point.setState(-1);
                     }
-                    paintL.setColor(Color.RED);
                     refreshLockView(1000);
                     onUpdateMessageListener.vibration("long");
                 }else{
@@ -473,7 +468,6 @@ public class ExpandLockView extends View {
                     for (Point point : pointTrace) {
                         point.setState(-1);
                     }
-                    paintL.setColor(Color.RED);
                     refreshLockView(1000);
                     try_time_restriction = 5;
                 }
@@ -503,7 +497,6 @@ public class ExpandLockView extends View {
                 for (Point point : pointTrace) {
                     point.setState(-1);
                 }
-                paintL.setColor(Color.RED);
                 onUpdateMessageListener.vibration("long");
                 refreshLockView(500);
                 step--;
@@ -596,7 +589,7 @@ public class ExpandLockView extends View {
     //取出存储在SharedPreferences中的密码,可重写成其他存储方式
     public String getPassword() {
 
-        String pwd = preferences.getString("gesturelock",null);
+        String pwd = preferences.getString("gesturelock","");
         return pwd;
     }
 

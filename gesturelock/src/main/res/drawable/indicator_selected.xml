@@ -4,7 +4,7 @@
     <!-- 纯色实心圆 -->
     <item>
         <shape android:shape="oval" >
-            <solid android:color="#ff613e" />
+            <solid android:color="#59ecc2" />
         </shape>
     </item>
 
