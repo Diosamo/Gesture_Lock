@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity implements ExpandLockView.On
         mLockviewExpand.setActionMode(2);//set mode  更换手势密码
 
 
-//        mLockviewExpand.setHiddenTrack(true); //隐藏轨迹和按钮
-//        mLockviewExpand.setShowError(true); //显示失败视图
+        mLockviewExpand.setHiddenTrack(true); //隐藏轨迹和按钮
+        mLockviewExpand.setShowError(true); //显示失败视图
 //        mLockviewExpand.setLockTime(2);//设置显示的锁住的时间
 
 
