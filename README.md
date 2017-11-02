@@ -2,6 +2,7 @@
 这是一个手势解锁的库，可以定制显示隐藏宫格点、路径、并且带有小九宫格显示图，和震动。喜欢的朋友star一下！
 
 #### 添加的gradle
+第一步：  
 Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -9,7 +10,8 @@ Add it in your root build.gradle at the end of repositories:
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}Copy
+	}
+第二步：  
 Step 2. Add the dependency
 
 	dependencies {

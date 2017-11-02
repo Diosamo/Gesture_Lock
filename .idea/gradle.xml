@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/gesturelock" />
+            <option value="$PROJECT_DIR$/gesturelock1.1" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

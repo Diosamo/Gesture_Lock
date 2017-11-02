@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gesture_Lock.iml" filepath="$PROJECT_DIR$/Gesture_Lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/gesturelock/gesturelock.iml" filepath="$PROJECT_DIR$/gesturelock/gesturelock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gesturelock1.1/gesturelock1.1.iml" filepath="$PROJECT_DIR$/gesturelock1.1/gesturelock1.1.iml" />
     </modules>
   </component>
 </project>
