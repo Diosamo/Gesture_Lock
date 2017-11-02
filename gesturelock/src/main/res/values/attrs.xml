@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义手势密码，相关属性-->
+    <declare-styleable name="ExpandLockView">
+        <attr name="lock_selected1" format="reference"></attr>
+        <attr name="lock_selected2" format="reference"></attr>
+        <attr name="lock_selected3" format="reference"></attr>
+        <attr name="lock_selected_error" format="reference"></attr>
+        <attr name="lock_unselected" format="reference"></attr>
+        <attr name="lock_trackColor" format="color"></attr>
+        <attr name="title_set_password_again" format="string"></attr>
+        <attr name="title_set_password_error" format="string"></attr>
+        <attr name="title_unlock_password_right" format="string"></attr>
+        <attr name="title_unlock_password_error" format="string"></attr>
+        <attr name="title_unlock_password_overtime" format="string"></attr>
+        <attr name="title_reset_password_new" format="string"></attr>
+        <attr name="title_reset_password_again" format="string"></attr>
+        <attr name="title_reset_password_error" format="string"></attr>
+    </declare-styleable>
+    <declare-styleable name="IndicatorLockView">
+        <attr name="indicator_selected" format="reference" />
+        <attr name="indicator_unselected" format="reference" />
+    </declare-styleable>
+</resources>
