@@ -1,6 +1,21 @@
 # Gesture_Lock
 这是一个手势解锁的库，可以定制显示隐藏宫格点、路径、并且带有小九宫格显示图，和震动。喜欢的朋友star一下！
 
+#### 添加的gradle
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}Copy
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.Diosamo:Gesture_Lock:1.0'
+	}
+
 ![alt](/IntroduceImage/take1.jpg "效果图1")
 ![alt](/IntroduceImage/take2.jpg "效果图2")
 ![alt](/IntroduceImage/take3.jpg "效果图3")
