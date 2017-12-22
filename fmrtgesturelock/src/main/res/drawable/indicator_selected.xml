@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 纯色实心圆 -->
+    <item>
+        <shape android:shape="oval" >
+            <solid android:color="#ff613e" />
+        </shape>
+    </item>
+
+</layer-list>
