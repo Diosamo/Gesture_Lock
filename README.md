@@ -15,7 +15,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 		dependencies {
-	       	compile 'com.github.Diosamo:Gesture_Lock:master-SNAPSHOT'
+	       		compile 'com.github.Diosamo:Gesture_Lock:master-SNAPSHOT'
 		}
 
 ![alt](/IntroduceImage/take1.jpg "效果图1")
