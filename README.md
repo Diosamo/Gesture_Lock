@@ -203,14 +203,14 @@ public class MainActivity extends AppCompatActivity implements ExpandLockView.On
 
 ```
 
-### xml指定图片
- 					          app:lock_selected1="@drawable/left"  //设置最左边图片
-                    app:lock_selected2="@drawable/center" //设置最中间图片
-                    app:lock_selected3="@drawable/right" //设置最右边图片
-                    app:lock_trackColor="#04ff9b"        //设置轨迹颜色
-                    app:lock_selected_error="@drawable/circle_error"  //设置错误图片
-                    app:lock_unselected="@drawable/gusture_icon_default" //设置未选中图片
+### xml指定图片  
+ 					app:lock_selected1="@drawable/left"  //设置最左边图片  
+                    app:lock_selected2="@drawable/center" //设置最中间图片  
+                    app:lock_selected3="@drawable/right" //设置最右边图片  
+                    app:lock_trackColor="#04ff9b"        //设置轨迹颜色  
+                    app:lock_selected_error="@drawable/circle_error"  //设置错误图片  
+                    app:lock_unselected="@drawable/gusture_icon_default" //设置未选中图片  
 
-## 好了喜欢的小伙伴记得给星星哦！
+## 好了喜欢的小伙伴记得给星星哦！ 如有问题也可以发邮件给我我的邮箱是 diosamolee2014@gmail.com
 
 
