@@ -1,1 +1,1 @@
-include ':app'
+include ':gesture_lock_lib'

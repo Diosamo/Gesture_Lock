@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gesture_Lock.iml" filepath="$PROJECT_DIR$/Gesture_Lock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\GitHub\Gesture_Lock\gesture_lock_lib\gesture_lock2.iml" filepath="C:\Users\Administrator\Desktop\GitHub\Gesture_Lock\gesture_lock_lib\gesture_lock2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gesture_lock_lib/gesture_lock_lib.iml" filepath="$PROJECT_DIR$/gesture_lock_lib/gesture_lock_lib.iml" />
     </modules>
   </component>
 </project>
