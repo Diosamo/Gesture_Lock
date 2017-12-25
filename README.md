@@ -6,10 +6,10 @@
 Add it in your root build.gradle at the end of repositories:
 
 	repositories {
-    maven {
-        url  "https://dl.bintray.com/freecoders/GestureLock" 
-    }
-}
+	    maven {
+		url  "https://dl.bintray.com/freecoders/GestureLock" 
+	    }
+	}
 第二步：  
 Step 2. Add the dependency
 
