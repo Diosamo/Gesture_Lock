@@ -2,19 +2,10 @@
 这是一个手势解锁的库，可以定制显示隐藏宫格点、路径、并且带有小九宫格显示图，和震动。喜欢的朋友star一下！
 
 #### 添加的gradle
-第一步：  
-Add it in your root build.gradle at the end of repositories:
 
-	repositories {
-	    maven {
-		url  "https://bintray.com/diosamolee/GestureLock" 
-	    }
-	}
-第二步：(也可以直接使用下面依赖,如果使用不行,就按步骤来)  
-Step 2. Add the dependency
 
 		dependencies {
-	       		 compile 'com.gesturelock:GestureLock:1.0'
+	       		 implementation 'com.gesturelock:GestureLock:1.0'
 		}
 
 ![alt](/IntroduceImage/gestureLock.gif "效果图")
